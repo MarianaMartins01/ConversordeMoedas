@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <img src="./assets/logo-unscreen.gif" alt="logo-convert-money" class="money"></img>
+    <main id="main">
+        <label class="de">
+            Converter <b>de</b>
+            <br>
+            <select class="boxone">
+                <option> Real Brasileiro </option>
+         </select>
+         <br>
+        </label>
+        
+        <label class="para">
+            Converter <b>para</b>
+            <br>
+            <select>
+                <option> Real Brasileiro </option>
+                <option> Dólar Americano </option>
+                <option> Dólar Australiano </option>
+                <option> Dólar Canadense </option>
+                <option> Euro </option>
+                <option> Franco Suiço </option>
+                <option> Iene </option>
+                <option> Libra Esterlina </option>
+                <option> Lira Turca </option>
+                <option> Peso Argentino </option>
+                <option> Won </option>
+                <option> Yuan </option>
+            </select>
+        </label>
+        <br>
+
+            <p><b>Valor</b></p>
+            <input placeholder="100,00" class="inputConvert"> </input>
+            <br>
+        
+        <button class="convertButton"> Converter </button>
+        <br>
+
+        <section>
+            <div class="de2">
+                <img src="./assets/realbr.png" alt="logo-real" class="real">
+                <br>
+                <p>Real Brasileiro</p>
+                <p class="realValueToConvert">R$0,00</p>
+            </div>
+
+            <img src="./assets/setaverde.png" class="seta">
+
+            <div class="para2">
+                <img src="./assets/dolareua.png" alt="dolar-eua" class="eua">
+                <br>
+                <p> Dólar Americano </p>
+                <p class="otherValueConvert">US$0.0</p>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+<script src="./script.js"></script>
+</html>

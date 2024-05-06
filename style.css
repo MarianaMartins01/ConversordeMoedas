@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    
+
+}
+body{
+    background-image: url(./assets/dinheiro.png) ;
+    background-color: rgb(208, 249, 208);
+}
+.money{
+    display: block;
+    width: 170px;
+    margin: 20px auto;
+}
+#main{
+    margin: 0 auto 40px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 44px 70px 23px;
+    width: 375px;
+    
+}
+.de{
+    color: #808080;
+    margin-bottom: 25px;
+    appearance: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+.para{
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 25px;
+    appearance: none;
+    
+    font-weight: 700;
+    font-size: 16px;
+}
+select{
+    margin-bottom: 25px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+
+}
+p{
+    color: #808080;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input{
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+   
+    
+}
+button{
+    background-color: rgb(208, 249, 208);
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    appearance: none;
+    
+    font-weight: 700;
+    font-size: 16px;
+}
+button:active{
+    color: rgb(29, 238, 10);
+    background-color: beige;
+}
+section{
+    border: 1px solid rgb(208, 249, 208);
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.real{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seta{
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+}
+.eua{
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and(max-width: 400px){
+      .money{
+        display: block;
+        width: auto;
+        margin: 20px auto;
+        }
+        #main{
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 8px;
+        padding: 44px 70px 23px;
+        width: auto;
+        height: auto;
+    }
+
+    }
