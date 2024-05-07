@@ -98,5 +98,60 @@ function convertValues(){
             currency: "BRL"
         }).format(inputConvertValue)   
     }
+
 console.log(convertValues)
+
+function changeConvert(){
+    const convertName = document.getElementById("convert-name")
+    const convertImage = document.querySelector(".convert-img")
+
+    if(convertSelect.value == "dolar"){
+    convertName.innerHTML = "Dólar Americano"
+    convertImage.src = "./assets/dolareua.png"
+}
+    if(convertSelect.value == "euro"){
+        convertName.innerHTML = "Euro"
+        convertImage.src = "./assets/euro.png"
+    }
+    if(convertSelect.value == "dolaustral"){
+        convertName.innerHTML = "Dólar Australiano"
+        convertImage.src = "./assets/dolaraustraliano.png"
+    }
+    if(convertSelect.value == "dolcanad"){
+        convertName.innerHTML = "Dólar Canadense"
+        convertImage.src = "./assets/dolarcanadense.png"
+    }
+    if(convertSelect.value == "franco"){
+        convertName.innerHTML = "Franco Suiço"
+        convertImage.src = "./assets/francosuiçoSuiça.png"
+    }
+    if(convertSelect.value == "iene"){
+        convertName.innerHTML = "Iene"
+        convertImage.src = "./assets/ienejapao.png"
+    }
+    if(convertSelect.value == "libra"){
+        convertName.innerHTML = "Libra"
+        convertImage.src = "./assets/libraessterlinareinoUn.png"
+    }
+    if(convertSelect.value == "liraturca"){
+        convertName.innerHTML = "Lira Turca"
+        convertImage.src = "./assets/liraturca.png"
+    }
+    if(convertSelect.value == "peso"){
+        convertName.innerHTML = "Peso Argentino"
+        convertImage.src = "./assets/pesoargentino.png"
+    }
+    if(convertSelect.value == "won"){
+        convertName.innerHTML = "Won"
+        convertImage.src = "./assets/woncoreia.png"
+    }
+    if(convertSelect.value == "yuan"){
+        convertName.innerHTML = "Yuan"
+        convertImage.src = "./assets/yuanchina.png"
+    }
+    convertValues()
+}
+
+
+convertSelect.addEventListener("change", changeConvert )
 convertButton.addEventListener("click", convertValues)
